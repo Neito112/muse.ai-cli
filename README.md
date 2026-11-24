@@ -4,6 +4,10 @@
 
 Repo này dùng chung cho mọi người. Script không chứa sẵn key hay thông tin của bất kỳ ai — public key là của riêng bạn, bạn tự nhập khi chạy.
 
+## Dùng với agent (Muse, Claude Code, ...)
+
+Muốn agent tự setup hộ bạn: đưa repo này cho agent của bạn — trong repo có file `AGENTS.md` ghi đầy đủ quy trình cho agent (lấy public key của máy ảo ở đâu, đưa lệnh one-line nào cho bạn chạy, thu 3 dòng thông tin máy nào, kiểm tra SSH từ máy ảo ra sao, dùng máy thế nào sau đó). Agent đọc file đó là tự làm được, không cần bạn giải thích lại.
+
 ## Chuẩn bị: public key của bạn
 
 Script cần public key SSH của máy ảo Muse của **bạn** (mỗi người một key khác nhau, không dùng chung). Lấy key bằng cách:
